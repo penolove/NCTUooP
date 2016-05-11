@@ -4,7 +4,7 @@
 #include "math.h"
 using namespace std;
 
-Circle::Circle(Point2D x,double y){
+Circle::Circle(Point2D x,double y):Shape(5){
 	center.set(x);
 	radius=y;
 }

@@ -8,7 +8,7 @@ using namespace std;
 class Circle_in_Triangle: public Circle, public Triangle
 {
 	public:
-		Circle_in_Triangle(Point2D p,int radius,Point2D *vec):Circle(p,radius),Triangle(vec){
+		Circle_in_Triangle(Point2D p,int radius,Point2D *vec):Circle(p,radius),Triangle(vec),Shape(0){
 		}
 		void area(){
 			cout<<"circle area : "<<Circle::area();
@@ -19,6 +19,7 @@ class Circle_in_Triangle: public Circle, public Triangle
 		{
 			cout << "Circle's color: " << Circle::color << endl;
 			cout << "Triangle's color: " << Triangle::color <<endl;
+			cout << "Circle_in_Triangle's color: " << color <<endl;
 			Circle::draw();
 			cout<<endl;
 			Triangle::draw();

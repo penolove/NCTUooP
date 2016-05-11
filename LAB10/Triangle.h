@@ -7,7 +7,7 @@ using namespace std;
 class Triangle:virtual public Shape
 {
 	public:
-		Triangle(Point2D *x){
+		Triangle(Point2D *x):Shape(6){
 			vertices=x;
 		};
 		~Triangle(){ delete [] vertices; }
