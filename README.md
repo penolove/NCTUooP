@@ -13,3 +13,10 @@ mutiple inhert
 
 ```
 
+**LAB10**
+
+```
+virtual funciton
+operator
+
+```
