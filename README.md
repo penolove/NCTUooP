@@ -1,5 +1,11 @@
 # NCTUooP
 
+**LAB7**
+```
+ operator +
+```
+
+
 **LAB9**
 ```
 using inhert
@@ -13,10 +19,18 @@ mutiple inhert
 
 ```
 
-**LAB10**
+**LAB11**
 
 ```
 virtual funciton
 operator
+
+```
+
+**LAB12**
+
+```
+operator << (cout);
+template fucntion and class
 
 ```
